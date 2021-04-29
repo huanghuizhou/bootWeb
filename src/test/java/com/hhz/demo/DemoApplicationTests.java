@@ -1,9 +1,7 @@
 package com.hhz.demo;
 
-import com.hhz.demo.dao.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -18,8 +16,6 @@ import java.util.Date;
 public class DemoApplicationTests {
 
 
-    @Autowired
-    private UserMapper userMapper;
     @Test
     public void contextLoads() {
         Long time = System.currentTimeMillis();
@@ -38,7 +34,6 @@ public class DemoApplicationTests {
 
     @Test
     public void aaa() {
-        userMapper.insert("2qwe", 1223);
     }
 
 }

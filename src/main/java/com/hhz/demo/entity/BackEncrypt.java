@@ -1,4 +1,4 @@
-package com.hhz.demo.controller;
+package com.hhz.demo.entity;
 
 public class BackEncrypt {
     private String encrypt;
